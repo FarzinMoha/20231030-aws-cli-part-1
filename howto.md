@@ -11,13 +11,13 @@ $ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 $ sudo installer -pkg ./AWSCLIV2.pkg -target /
 ```
 
-### To verify that the shell can find and run the aws command in your $PATH, use the following commands.
+#### To verify that the shell can find and run the aws command in your $PATH, use the following commands.
 ```bash
 $ which aws
 $ aws --version
 ```
 
-#### to config aws: 
+##### to config aws: 
 ```bash
 $ AWS access key id : [id]
 $ AWS secret access key : [access-key]
